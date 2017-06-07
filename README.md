@@ -5,7 +5,7 @@
 3. bundle
 4. psql=# create user lenny password 'leonard' createdb;
 5. rake db:create
-6, rake db:seed if you want to see some products without creating a new one,
+6. rake db:seed if you want to see some products without creating a new one,
 7. rails s
 
 Note: Only admin can update and delete products and comments. 
