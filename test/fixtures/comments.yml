@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  content: MyText
+  rating: 1
+  product: one
+
+two:
+  title: MyString
+  author: MyString
+  content: MyText
+  rating: 1
+  product: two

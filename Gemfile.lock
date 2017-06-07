@@ -1,3 +1,21 @@
+GIT
+  remote: git://github.com/amatsuda/kaminari.git
+  revision: 4efe5fd2bde3e8688fca220f93d14558d080d811
+  branch: master
+  specs:
+    kaminari (1.0.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.0.1)
+      kaminari-activerecord (= 1.0.1)
+      kaminari-core (= 1.0.1)
+    kaminari-actionview (1.0.1)
+      actionview
+      kaminari-core (= 1.0.1)
+    kaminari-activerecord (1.0.1)
+      activerecord
+      kaminari-core (= 1.0.1)
+    kaminari-core (1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,6 +57,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    bcrypt (3.1.11)
     bcrypt (3.1.11-x64-mingw32)
     bindex (0.5.0)
     builder (3.2.3)
@@ -59,6 +78,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
+    faker (1.6.3)
+      i18n (~> 0.5)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.4)
@@ -81,9 +102,12 @@ GEM
     minitest (5.10.2)
     multi_json (1.12.1)
     nio4r (2.1.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     nokogiri (1.8.0-x64-mingw32)
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
+    pg (0.19.0)
     pg (0.19.0-x64-mingw32)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -159,13 +183,16 @@ GEM
     websocket-extensions (0.1.2)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
+  faker
   jbuilder (~> 2.5)
   jquery-rails
+  kaminari!
   pg (= 0.19)
   pry
   puma (~> 3.0)
