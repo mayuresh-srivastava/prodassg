@@ -8,6 +8,7 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
   database: ProdAssg_development
   username: lenny
   password: leonard
